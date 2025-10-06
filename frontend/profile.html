@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortex - Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Seu Perfil</h1>
+        <div class="profile-info">
+            <p><strong>Nome:</strong> <span id="userName"></span></p>
+            <p><strong>Pontuação:</strong> <span id="userScore"></span></p>
+
+            <div class="referral-group">
+                <p><strong>Seu Link de Indicação:</strong></p>
+                <div class="referral-input-wrapper">
+                    <input type="text" id="referralLink" readonly>
+                    <button id="copyButton">Copiar Link</button>
+                </div>
+                <p id="copy-success" class="success"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
